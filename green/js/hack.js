@@ -363,4 +363,7 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
   };
 
 }).call(this);
-
+/*social */
+$(document).ready(function () {
+    $(".title-contact, .contact-email").fadeIn("slow");
+});
