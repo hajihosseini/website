@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Edit your profile</title>
  <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/hack.css" rel="stylesheet">
@@ -106,7 +106,59 @@
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
-				<div class="col-md-8 column">
+				<div class="col-md-4 column">
+				</div>
+				<div class="col-md-4 column">
+					<div class="container">
+					    <div class="row">
+					        <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
+					            <legend><a href="http://www.jquery2dotnet.com"><i class="glyphicon glyphicon-globe"></i></a> Edit your profile!</legend>
+					            <form action="#" method="post" class="form" role="form">
+					            <div class="row">
+					                <div class="col-xs-6 col-md-6">
+					                    <input class="form-control" name="firstname" placeholder="First Name" type="text"/>					              
+					                </div>
+					                <div class="col-xs-6 col-md-6">
+					                    <input class="form-control" name="lastname" placeholder="Last Name" type="text" />
+					                </div>
+					            </div>
+					            <input class="form-control" name="School" placeholder="School" type="text" />
+					            <input class="form-control" name="field of study" placeholder="Field of study" type="text" />
+					            <label for="">
+					                Birth Date</label>
+					            <div class="row">
+					                <div class="col-xs-4 col-md-4">
+					                    <select class="form-control">
+					                        <option value="Month">Month</option>
+					                    </select>
+					                </div>
+					                <div class="col-xs-4 col-md-4">
+					                    <select class="form-control">
+					                        <option value="Day">Day</option>
+					                    </select>
+					                </div>
+					                <div class="col-xs-4 col-md-4">
+					                    <select class="form-control">
+					                        <option value="Year">Year</option>
+					                    </select>
+					                </div>
+					            </div>
+					            <label class="radio-inline">
+					                <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
+					                Male
+					            </label>
+					            <label class="radio-inline">
+					                <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
+					                Female
+					            </label>
+					            <br />
+					            <br />
+					            <button class="btn btn-lg btn-primary btn-block" type="submit" formaction="home.html">
+					                Save Change</button>
+					            </form>
+					        </div>
+					    </div>
+					</div>
 				</div>
 				<div class="col-md-4 column">
 				</div>
@@ -164,3 +216,4 @@
     
   </body>
 </html>
+

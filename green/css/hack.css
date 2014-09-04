@@ -110,3 +110,8 @@ a{transition:all .3s ease;-webkit-transition:all .3s ease;-moz-transition:all .3
 /*-------------------------------------------------------------------------*/
 /*toolbar menu */
 .label,.glyphicon { margin-right:5px; }
+
+/*-------------------------------------------------------------------------*/
+/*edit profilex*/
+body { padding-top:30px; }
+.form-control { margin-bottom: 10px; }

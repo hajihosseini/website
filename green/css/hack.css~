@@ -107,3 +107,11 @@ a{transition:all .3s ease;-webkit-transition:all .3s ease;-moz-transition:all .3
 .contact a.google:hover,.fa-google-plus{color:#dd4b39}
 .contact a.linkedin:hover,.fa-linkedin{color:#0e76a8}
 .contact a.twitter:hover,.fa-twitter{color:#00acee}
+/*-------------------------------------------------------------------------*/
+/*toolbar menu */
+.label,.glyphicon { margin-right:5px; }
+
+/*-------------------------------------------------------------------------*/
+/*edit profilex
+body { padding-top:30px; }
+.form-control { margin-bottom: 10px; }*/
